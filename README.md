@@ -32,11 +32,11 @@ This is a good thing to do because whilst all the external SAAS services we use 
 
 ### Ruby Gems
 
-    gem install json 
+    gem install bundler
 
-If you're outputting to ganglia gmond you'll also need to
+Then just run
     
-    gem install gmetric
+    bundle
 
 #Configuration
 The config.rb file contains all the local configuration variables.
@@ -47,21 +47,13 @@ The config.rb file contains all the local configuration variables.
 ##New Relic
  update config.rb with your organization's API key and account number
 
-    gem install curb xml-simple
-
 ##AWS
  update config.rb with your organization's AWSAccessKeyId and AWSSecretKey with permission to read the Cloudwatch API
-
-    gem install fog
 
 ##Neustar
   update config.rb with your organization's API Key and Secret
 
-    gem install curb time
-
 ##Twitter
-
-    gem install curb
 
 
 #Running the scripts
